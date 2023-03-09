@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Card from './Components/Cards/Card';
+import FooterOne from './Components/Cards/footer';
+import images from './Components/data';
+import GovtStrip from './Components/GovtStrip';
+import Slideshow from './Components/ImageSlider';
+import LastFooter from './Components/lastFooer';
+import NavigationBar from './Components/NavigationBar';
+import NewsTicker from './Components/NewsTicker';
+import Strip from './Components/Strip';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Strip />
+      <GovtStrip />
+      <NavigationBar />
+      <Slideshow images={images}/>
+      <NewsTicker />
+      <Card />
+      <FooterOne />
+      <LastFooter />
+    </React.Fragment>
   );
 }
 
-export default App;
+export default App
