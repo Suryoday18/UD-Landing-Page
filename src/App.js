@@ -5,7 +5,8 @@ import images from './Components/data';
 import GovtStrip from './Components/GovtStrip';
 import Slideshow from './Components/ImageSlider';
 import LastFooter from './Components/lastFooer';
-import NavigationBar from './Components/NavigationBar';
+import Navbar from './Components/NavMUI';
+// import NavigationBar from './Components/NavigationBar';
 import NewsTicker from './Components/NewsTicker';
 import Strip from './Components/Strip';
 
@@ -14,7 +15,8 @@ function App() {
     <React.Fragment>
       <Strip />
       <GovtStrip />
-      <NavigationBar />
+      {/* <NavigationBar /> */}
+      <Navbar />
       <Slideshow images={images}/>
       <NewsTicker />
       <Card />

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
+// import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 
 
 const Slideshow = ({ images }) => {
@@ -13,19 +13,19 @@ const Slideshow = ({ images }) => {
         return () => clearInterval(intervalId);
     }, [currentImageIndex, images.length]);
 
-    const handlePreviousClick = () => {
-        setCurrentImageIndex((currentImageIndex - 1 + images.length) % images.length);
-    };
+    // const handlePreviousClick = () => {
+    //     setCurrentImageIndex((currentImageIndex - 1 + images.length) % images.length);
+    // };
 
-    const handleNextClick = () => {
-        setCurrentImageIndex((currentImageIndex + 1) % images.length);
-    };
+    // const handleNextClick = () => {
+    //     setCurrentImageIndex((currentImageIndex + 1) % images.length);
+    // };
 
     return (
-        <div className="slideshow">
-            <button className="slideshow-button" onClick={handlePreviousClick}><FiChevronLeft /></button>
+        <div className="slideshow" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            {/* <button className="slideshow-button" onClick={handlePreviousClick}><FiChevronLeft /></button> */}
             <img src={images[currentImageIndex]} alt="Slideshow" />
-            <button className="slideshow-button" onClick={handleNextClick}><FiChevronRight /></button>
+            {/* <button className="slideshow-button" onClick={handleNextClick}><FiChevronRight /></button> */}
         </div>
     );
 };
