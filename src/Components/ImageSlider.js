@@ -13,14 +13,6 @@ const Slideshow = ({ images }) => {
         return () => clearInterval(intervalId);
     }, [currentImageIndex, images.length]);
 
-    // const handlePreviousClick = () => {
-    //     setCurrentImageIndex((currentImageIndex - 1 + images.length) % images.length);
-    // };
-
-    // const handleNextClick = () => {
-    //     setCurrentImageIndex((currentImageIndex + 1) % images.length);
-    // };
-
     return (
         <div className="slideshow" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             {/* <button className="slideshow-button" onClick={handlePreviousClick}><FiChevronLeft /></button> */}

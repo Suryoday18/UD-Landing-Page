@@ -10,7 +10,7 @@ function Strip() {
         <Typography variant="h6" component="div" style={{marginBottom: '24px', marginLeft: '10px', marginRight: '10px', fontSize: '14px'}}>
         |
         </Typography>
-        <Typography variant="h6" component="div" style={{marginBottom: '24px', marginRight: '300px', fontSize: '14px'}}>
+        <Typography variant="h6" component="div" style={{marginBottom: '24px', marginRight: '400px', fontSize: '14px'}}>
         Government of Himanchal Pradesh 
         </Typography>
         <img src='https://www.hsvphry.org.in/assets/img/font-small.png' alt='decrease' style={{marginBottom: '25px',marginRight: '15px', width: '22px', height: '22px'}}/>

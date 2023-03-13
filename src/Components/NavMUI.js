@@ -17,14 +17,14 @@ const Navbar = () => {
   return (
     <AppBar position="static" style={{backgroundColor: '#274472', height: '60px'}} >
       <Toolbar>
-        <Button color='inherit' style={{marginLeft: '10px', fontSize: '12px'}}>Home</Button>
-        <Button color="inherit" style={{marginLeft: '10px', fontSize: '12px'}}>About Us</Button>
-        <Button color="inherit" style={{marginLeft: '10px'}}>Act and Rules</Button>
-        <Button color="inherit" onClick={handleClick} style={{marginLeft: '10px', fontSize: '12px'}}>Schemas & Projects</Button>
-        <Button color='inherit' style={{marginLeft: '10px', fontSize: '12px'}}>Solid Waste Management/NGT</Button>
-        <Button color="inherit" style={{marginLeft: '10px', fontSize: '12px'}}>Muncipalities-At A Glance</Button>
-        <Button color="inherit" style={{marginLeft: '10px', fontSize: '12px'}}>Tenders/RFP & Advt.</Button>
-        <Button color="inherit" onClick={handleClick} style={{marginLeft: '10px', fontSize: '12px'}}>Contact Us</Button>
+        <Button color='inherit' style={{marginLeft: '80px', fontSize: '12px'}}>Home</Button>
+        <Button color="inherit" style={{marginLeft: '20px', fontSize: '12px'}}>About Us</Button>
+        <Button color="inherit" style={{marginLeft: '20px'}}>Notification / Order</Button>
+        <Button color="inherit" onClick={handleClick} style={{marginLeft: '20px', fontSize: '12px'}}>Act & Rules</Button>
+        <Button color='inherit' style={{marginLeft: '20px', fontSize: '12px'}}>Development Plan</Button>
+        <Button color="inherit" style={{marginLeft: '20px', fontSize: '12px'}}>FAQ</Button>
+        <Button color="inherit" style={{marginLeft: '20px', fontSize: '12px'}}>User Guide/Manual</Button>
+        <Button color="inherit" onClick={handleClick} style={{marginLeft: '20px', fontSize: '12px'}}>Contact Us</Button>
       </Toolbar>
     </AppBar>
   );

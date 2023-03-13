@@ -7,7 +7,7 @@ const useStyles = makeStyles(theme => ({
     position: 'relative',
     overflow: 'hidden',
     width: '100%',
-    height: 50, 
+    height: 40, 
     marginTop: '10px', 
     backgroundColor: '#f0f0f0'
     
@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
       transform: 'translateX(100%)',
     },
     '100%': {
-      transform: 'translateX(-70%)',
+      transform: 'translateX(-200%)',
     },
   },
 }));
@@ -45,9 +45,9 @@ function MovingText() {
   return (
     <div className={classes.textContainer}>
       <div>
-      <Typography style={{marginLeft: '100px', backgroundColor: '#280046', padding: '10px', width: '100px', height: '20px', color: 'white'}}>Latest News</Typography>
+      <Typography style={{marginLeft: '10px', backgroundColor: '#152238', padding: '10px', width: '100px', height: '20px', color: 'white'}}></Typography>
       {/* <Typography variant="body1" className={classes.line1}>Leading Prosperity Under DAY-NULM HIMACHAL PRADESH</Typography> */}
-      <Typography variant="body1" className={classes.line2} style={{padding: '10px', color: 'blue', fontSize: '14px'}}>For street light Complaints (EESL) - in ULBs (HP). Pl Call on Toll Free - 18001803580</Typography>
+      <Typography variant="body1" className={classes.line2} style={{padding: '10px', color: 'blue', fontSize: '14px'}}>For any queries regarding online services, kindly contact us at obpsud@gmail.com</Typography>
       </div>
     </div>
   );
