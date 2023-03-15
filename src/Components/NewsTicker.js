@@ -45,9 +45,7 @@ function MovingText() {
   return (
     <div className={classes.textContainer}>
       <div>
-      <Typography style={{marginLeft: '10px', backgroundColor: '#152238', padding: '10px', width: '100px', height: '20px', color: 'white'}}></Typography>
-      {/* <Typography variant="body1" className={classes.line1}>Leading Prosperity Under DAY-NULM HIMACHAL PRADESH</Typography> */}
-      <Typography variant="body1" className={classes.line2} style={{padding: '10px', color: 'blue', fontSize: '14px'}}>For any queries regarding online services, kindly contact us at obpsud@gmail.com</Typography>
+      <Typography variant="body1" className={classes.line2} style={{padding: '10px', color: '#36454F', fontWeight: 'bold', fontSize: '15px'}}>For any queries regarding online services, kindly contact us at obpsud@gmail.com</Typography>
       </div>
     </div>
   );

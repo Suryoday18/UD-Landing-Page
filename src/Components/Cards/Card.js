@@ -1,13 +1,13 @@
-import CardComponent from "./Card1"
-import AboutUsCard from "./Card2"
-import Schema from "./Cardsss/Schema"
+import AuthDetails from './AuthDetails'
+import OurServices from "./OurServices"
+import ImportantLinks from "./ImportantLinks"
 
 const Card = () => {
     return(
         <div style={{display: 'flex', flexDirection: 'row'}}>
-            <CardComponent />
-            <AboutUsCard />
-            <Schema />
+            <AuthDetails />
+            <OurServices />
+            <ImportantLinks />
         </div>
     )
 }

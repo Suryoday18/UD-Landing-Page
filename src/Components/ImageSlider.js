@@ -16,7 +16,7 @@ const Slideshow = ({ images }) => {
     return (
         <div className="slideshow" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             {/* <button className="slideshow-button" onClick={handlePreviousClick}><FiChevronLeft /></button> */}
-            <img src={images[currentImageIndex]} alt="Slideshow" />
+            <img src={images[currentImageIndex]} alt="Slideshow" style={{maxWidth: '100%', height: 'auto'}}/>
             {/* <button className="slideshow-button" onClick={handleNextClick}><FiChevronRight /></button> */}
         </div>
     );
