@@ -5,7 +5,7 @@ import {HiOutlineClipboardDocumentCheck} from 'react-icons/hi2'
 import {BsFillClipboard2CheckFill} from 'react-icons/bs'
 import {MdOutlineFactCheck} from 'react-icons/md'
 import {BsFillCalendarXFill} from 'react-icons/bs'
-import FormLinks from './FormLinks';
+// import FormLinks from './FormLinks';
 
 
 
@@ -14,7 +14,7 @@ function DetailsAndLinks() {
   
   return (
     <Grid style={{background: '#f0f0f0', display: 'flex', flexDirection: 'row', boxShadow: 'rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;'}}>
-    <Card sx={{ maxWidth: 900 }}>
+    <Card sx={{ maxWidth: 900}}>
     <CardHeader
     title={
       <Typography variant="h6" style={{color: '#003366', fontStyle: 'italic', fontWeight: 'bold', marginLeft: '200px'}}>
@@ -23,8 +23,8 @@ function DetailsAndLinks() {
     }
     style={{ backgroundColor: '#F7F7F7' }}
   />
-    <CardContent style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-around', marginRight: '100px'}}>
-      <Grid item xs={12} sm={6} md={4}>
+    <CardContent style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-around', marginRight: '100px'}}>
+      <Grid item xs={12} sm={6} md={4} style={{display: 'flex', flexDirection: 'row'}}>
         <Grid item xs={12} sm={6} md={4}>
             <Card style={{ width: '280px', height: '180px', margin: '20px -30px', boxShadow: 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset', backgroundColor: '#4ca9d9', backgroundImage: 'linear-gradient(to right, #BCD2E8, #2E5984)'}}>
                 <CardContent>
@@ -69,7 +69,7 @@ function DetailsAndLinks() {
               </Card>
             </Grid>
       </Grid>
-      <Grid item xs={12} sm={6} md={4}>
+      <Grid item xs={12} sm={6} md={4} style={{display: 'flex', flexDirection: 'row'}}>
             <Grid item xs={12} sm={6} md={4}>
             <Card style={{ width: '280px', height: '180px', margin: '20px', boxShadow: 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset', backgroundColor: '#4ca9d9', backgroundImage: 'linear-gradient(to right, #BCD2E8, #2E5984)'}}>
                 <CardContent>
@@ -118,7 +118,7 @@ function DetailsAndLinks() {
       </Grid>
     </CardContent>
     </Card>  
-    <FormLinks />
+    {/* <FormLinks /> */}
   </Grid>
   );
 }

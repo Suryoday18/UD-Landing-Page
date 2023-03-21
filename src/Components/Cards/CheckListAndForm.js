@@ -3,8 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import UserForm from './USerForm';
-import Checklist from './CheckList';
 import {RiInboxArchiveLine} from 'react-icons/ri'
+import ImportantLinks from './ImportantLinks';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -28,8 +28,8 @@ function CheckListAndForm() {
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6}>
          <div style={{marginLeft: '50px'}}>
-            <Checklist />
-          </div>
+            <ImportantLinks />
+         </div>
         </Grid>
         <Grid item xs={12} sm={6}>
             <div style={{marginLeft: '60px', borderLeft: '1 px solid white', display: 'flex', flexDirection: 'row'}}>
@@ -39,7 +39,6 @@ function CheckListAndForm() {
               </Typography>
               </div>
               <UserForm />
-          
         </Grid>
       </Grid>
     </div>
