@@ -84,16 +84,6 @@ const DetailTable = () => {
                     <TableCell>1 days</TableCell>
                     <TableCell>363 days</TableCell>
                 </TableRow>
-                <TableRow>
-                    <TableCell>Application of Appeal</TableCell>
-                    <TableCell>7 </TableCell>
-                    <TableCell>352</TableCell>
-                    <TableCell>1548</TableCell>
-                    <TableCell>98 days</TableCell>
-                    <TableCell>182 days</TableCell>
-                    <TableCell>1 day</TableCell>
-                    <TableCell>365</TableCell>
-                </TableRow>
                 </TableBody>
                 </Table>
             </TableContainer>
