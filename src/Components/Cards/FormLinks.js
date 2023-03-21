@@ -37,14 +37,14 @@ const FormLinks = () => {
         Form Application for composition of offences under section 39-C read with sub-section (3) of section (Form - 26) - Apply Now
         </Button>
         <Button variant="body1" component="p" className={classes.button} style={{ padding: '10px', borderRadius: '10px', fontSize: '14px', marginTop: '20px'}}>
-        Registered citizen user may apply for NOC of water, Electricity and severage. - Apply Now
+         Registered citizen user may apply for NOC of water, Electricity and severage. - Apply Now
         </Button>
         <Divider style={{margin: '10px'}}></Divider>
-        <Button variant="body1" component="p" className={classes.button} style={{ padding: '10px', width: '570px', height: '60px', borderRadius: '10px', fontSize: '14px', marginTop: '20px'}}>
-        Application for permission of Mobile Tower - Apply Now
+        <Button variant="body1" component="p" className={classes.button} style={{ padding: '10px', width: '570px', height: '60px', borderRadius: '10px', fontSize: '14px', marginTop: '20px', display: 'flex', justifyContent: 'left'}}>
+          Application for permission of Mobile Tower - Apply Now
         </Button>
-        <Button variant="body1" component="p" className={classes.button} style={{ padding: '10px', width: '570px', height: '60px', borderRadius: '10px', fontSize: '14px', marginTop: '20px'}}>
-        Application for permission of NOC - Apply Now
+        <Button variant="body1" component="p" className={classes.button} style={{ padding: '10px', width: '570px', height: '60px', borderRadius: '10px', fontSize: '14px', marginTop: '20px', display: 'flex', justifyContent: 'left'}}>
+          Application for permission of NOC - Apply Now
         </Button>
       </CardContent>
     </Card>

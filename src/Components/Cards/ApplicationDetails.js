@@ -78,7 +78,7 @@ const ApplicationDetails = () => {
 
   return (
     <div style={{background: 'linear-gradient(to right, #E5E5FF, #F5F5FF)', margin: '20px'}}>
-      <Typography variant="h4" component="h1" className={classes.heading} style={{marginLeft: '300px', color: '#001A00', fontWeight: 'bold', fontStyle: 'italic', textDecoration: 'underline'}}>
+      <Typography variant="h5" component="h1" className={classes.heading} style={{marginLeft: '300px', color: '#001A00', fontWeight: 'bold'}}>
       Application Status
       </Typography>
       <Grid container justifyContent="center">

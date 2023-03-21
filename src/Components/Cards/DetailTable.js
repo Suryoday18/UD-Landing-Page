@@ -55,16 +55,6 @@ const DetailTable = () => {
                     <TableCell>365</TableCell>
                 </TableRow>
                 <TableRow>
-                    <TableCell>Application for Real Estate Projects</TableCell>
-                    <TableCell>7</TableCell>
-                    <TableCell>1486</TableCell>
-                    <TableCell>4833</TableCell>
-                    <TableCell>46 days</TableCell>
-                    <TableCell>182 days</TableCell>
-                    <TableCell>1 days</TableCell>
-                    <TableCell>365 days</TableCell>
-                </TableRow>
-                <TableRow>
                     <TableCell>Application for Change of Land Use</TableCell>
                     <TableCell>60</TableCell>
                     <TableCell>61</TableCell>
@@ -79,10 +69,10 @@ const DetailTable = () => {
                     <TableCell>60</TableCell>
                     <TableCell>13787</TableCell>
                     <TableCell>9502</TableCell>
-                    <TableCell>57 days</TableCell>
-                    <TableCell>181 days</TableCell>
-                    <TableCell>1 days</TableCell>
-                    <TableCell>363 days</TableCell>
+                    <TableCell>-</TableCell>
+                    <TableCell>-</TableCell>
+                    <TableCell>-</TableCell>
+                    <TableCell>-</TableCell>
                 </TableRow>
                 </TableBody>
                 </Table>

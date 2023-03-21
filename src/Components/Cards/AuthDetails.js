@@ -39,6 +39,7 @@ const AuthDetails = () => {
                 component="img"
                 image={item.image}
                 title={`Item ${index + 1}`}
+                style={{borderRadius: '50%'}}
               />
               <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '30px', marginTop: '20px' }}>
               <Typography variant="body1" style={{ color: '#274472', fontWeight: 'bold', fontSize: '15px', width: '300px', marginTop: '10px', WebkitFontSmoothing: 'antialiased', MozOsxFontSmoothing: 'grayscale' }}>{item.text1}</Typography>
